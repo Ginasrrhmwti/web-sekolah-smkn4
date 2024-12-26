@@ -1,61 +1,176 @@
 .navbar-custom {
-    background-color: #00468C;
+  background-color:#FF4500;
 }
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
-    color: white;
+  color: white;
 }
 .navbar-custom .navbar-nav .nav-link:hover {
-    color: #FFD700;
+  color: #ffd700;
 }
 .navbar-custom .navbar-toggler-icon {
-    background-color: white;
+  background-color: white;
 }
 .navbar-brand-text {
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    margin-left: 10px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
 }
 .principal-message {
-    background-color: #f7f7f7;
-    padding: 40px 0;
+  background-color: #f7f7f7;
+  padding: 40px 0;
 }
 .principal-message h2 {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 28px;
-    font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: bold;
 }
 .principal-message .message-text {
-    text-align: justify;
-    font-size: 18px;
-    color: #333;
-    line-height: 1.8; 
+  text-align: justify;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.8;
 }
 .principal-message img {
-    border-radius: 50%;
-    max-height: 300px; 
-    width: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  border-radius: 50%;
+  max-height: 300px;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .row > .col-md-4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .banner-image {
-     width: 60%;
-     height: 400px; 
-     object-fit: cover;
-     margin-top: 30px;
-     margin-bottom: 20px;
-     display: block; 
-     margin-left: auto;
-     margin-right: auto;
- }
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
- .gina{
+.gina {
+  text-align: center;
+}
+
+/* .card5{
+    height: 100%;
+    width: 100%;
+ } */
+
+.card1 {
+  background-color: gray;
+  border: 10%;
+  height: 100%;
+  border-radius: var();
+}
+
+.card2 {
+  background-color: gray;
+  height: 100%;
+  border-radius: 2%;
+}
+
+.card3 {
+  background-color: gray;
+  height: 100%;
+  border-radius: 2%;
+}
+
+.outer {
+  --outer-radius: 27px;
+  --padding: 16px;
+  --inner-radius: calc(var(--outer-radius) - var(--padding));
+  padding: var(--padding);
+  border-radius: var(--outer-radius);
+}
+.inner {
+  border-radius: var(--inner-radius);
+}
+
+.kepala-sekolah-img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+}
+
+.divider {
+  margin: 40px 0;
+  border-top: 2px solid #ddd;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.visi-card,
+.misi-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.misi-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.misi-list li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.misi-list li::before {
+  content: '\2022';
+  color: #007bff;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.navbar-brand-text {
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+}
+
+.card pplg {
+  height: 20px;
+  width: 20px;
+}
+
+.gina3{
+  text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.sejarah{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
     text-align: center;
- }
+  }
